@@ -9,19 +9,22 @@ integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIe
 crossorigin="anonymous"></script>
 </head>
 <body>
-<h3>Spinner Using Bootstrap</h3>
+<h3>Pagination Using Bootstrap</h3>
 <div class="container">
-<span class="spinner-border"></span>
-<span class="spinner-border text-danger"></span>
-<span class="spinner-border text-success"></span>
+<ul class="pagination">
+  <li class="page-item">
+  <a href="#"
+    class="page-link">Previous</a>
+  <li class="page-item">
+  <a href="#"
+    class="page-link">1</a>
+  <li class="page-item">
+  <a href="#"
+    class="page-link">2</a>
+  <li class="page-item">
+  <a href="#"
+    class="page-link">Next</a>
 </div>
-<div class="container">
-<span class="spinner-grow"></span>
-<span class="spinner-grow text-danger"></span>
-<span class="spinner-grow text-success"></span>
-</div>
-<button type="button" class="btn btn-primary">
-<span class="spinner-border text-white"><span>
-Loading....</button>
+
 </body>
 </html>
